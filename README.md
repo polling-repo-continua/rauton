@@ -21,4 +21,5 @@ And for wildcard domains use :
 ```
 ---
 Thanks : @silver_stone3
-If you like tool please support me !
+
+**If you like tool please support me !**
