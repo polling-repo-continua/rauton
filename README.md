@@ -1,6 +1,8 @@
 # Rauton
 Bug Bounty Recon Automation Tool
 
+![ScreenShot](https://i.imgur.com/VCVWtQf.png)
+
 ## Installation :
 1. Clone the repository with `git clone https://github.com/Huntinex/rauton`
 2. Run installation file `./install.sh`
