@@ -10,7 +10,7 @@ Advanced Bug Bounty Recon Automation Tool
 For single domains use :
 ```bash
 bbhrecon -single apple.com
-// Or 
+# or (default mode is single)
 bbhrecon apple.com
 ```
 And for wildcard domains use :
@@ -18,5 +18,5 @@ And for wildcard domains use :
 bbhrecon -wild apple.com
 ```
 ---
-Thanks : @silver_stone3 , @hamid_000_p
+Thanks : @silver_stone3
 If you like tool please support me !
