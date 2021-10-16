@@ -1,9 +1,10 @@
 # Rauton
-Advanced Bug Bounty Recon Tools
+Advanced Bug Bounty Recon Automation Tool
 
 ## Installation :
 1. Clone the repository with `git clone https://github.com/Huntinex/bbhrecon/`
 2. Run installation file `./install.sh`
+3. Edit the script `CONFIG` section and enter your `dirsearch_wordlist_path` .
 
 ## Usage :
 For single domains use :
@@ -18,3 +19,4 @@ bbhrecon -wild apple.com
 ```
 ---
 Thanks : @silver_stone3 , @hamid_000_p
+If you like tool please support me !
