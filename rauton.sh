@@ -21,7 +21,7 @@ bw=`tput setab 7`
 recon (){
 	if [ "$2" = "wild" ]; then
 		echo "${yellow}[#] Subdomain Recon";
-		asb $1 > subs;
+		assetfinder $1 > subs;
 		echo "${yellow}[#] HTTP Validation";
 		cat subs | httprobe -prefer-https | qsreplace | sed 's/https\?:\/\///' | anew -q valid_domains;
 	fi
