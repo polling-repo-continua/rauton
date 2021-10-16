@@ -1,8 +1,4 @@
 #!/bin/bash
-#### CHANGE THE INPUT METHOD FROM DOMAIN TO SCOPE !!
-### ACCEPT WILDCARD ; FIND WITH *.domain.com
-### OTHERS FIND EASY ; BECAUSE OTHERS IS SUBDOMAIN NO WILDCARD
-
 #############################################################
 ######################### CONFIG ############################
 vhost_wlist_path=/tls/wordlist/vhost.txt
