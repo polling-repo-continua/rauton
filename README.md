@@ -1,5 +1,5 @@
 # Rauton
-Advanced Bug Bounty Recon Automation Tool
+Bug Bounty Recon Automation Tool
 
 ## Installation :
 1. Clone the repository with `git clone https://github.com/Huntinex/rauton`
