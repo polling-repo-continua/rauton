@@ -1,7 +1,7 @@
 #!/bin/bash
 #############################################################
 ######################### CONFIG ############################
-vhost_wlist_path=/tls/wordlist/vhost.txt
+
 dirsearch_wordlist_path=/tls/wordlist/dirsearch.txt
 
 #############################################################
@@ -115,7 +115,7 @@ recon (){
 	# dirfuzz
 	mkdir fuzzing;
 	echo "${yellow}[#] Finding ${red}Directories and Sensitive Files";
-	dirsearch -u $1 -t 500 -o fuzzing/dirsearch
+	dirsearch -u $1 -t 500 -o fuzzing/dirsearch -w $dirsearch_wordlist_path 
 
 	#sensitivefuzz
 		#NOTHING
