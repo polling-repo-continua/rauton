@@ -32,8 +32,7 @@ recon (){
 	cd fingerprint;
 	if [ "$2" = "wild" ]; then
 	echo "${yellow}[#] Finding Hosts with ${red}Censys";
-	cenhosts $1 > cenhosts
-	cat cenhosts ../valid_domains > ../allhosts
+	cat valid_domains > allhosts
 	echo "${yellow}[#] Web FingerPrinting";
 	gowitness file -f ../allhosts
 	gowitness report serve &>/dev/null &
